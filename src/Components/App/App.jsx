@@ -1,16 +1,17 @@
+import Header from "../Header/Header";
+import Footer from "../footer/Footer";
+import HomePage from "../pages/HomePage";
 
-import {MyName} from "../MyName/MyName.jsx";
-
-import "./App.css";
 
 function App() {
   return (
     <>
-      <div>
-        <h1>Hello React</h1>
-        <p>This my first Project</p>
-        <MyName />
-      </div>
+      <main className="app">
+        <Header />
+        <HomePage />
+        
+        <Footer />
+      </main>
     </>
   );
 }
