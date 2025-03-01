@@ -1,9 +1,7 @@
 
-export default function Button(){
-    const handleClick = () => {
-        alert("push me");
-    }
+export default function Button({label,onClick,btnStyles}){
+ 
     return(
-        <button className="Btn" onClick={handleClick}>Push the button</button>
+        <button className="Btn" onClick={onClick} style={btnStyles}>{label || "Just button"}</button>
     )
 }
