@@ -4,13 +4,14 @@ import HomePage from "../pages/HomePage";
 
 
 function App() {
+
   return (
     <>
-      <main className="app">
-        <Header />
-        <HomePage />
-        
-        <Footer />
+      <main >
+        <Header/>
+        <HomePage/>
+     
+        <Footer/>
       </main>
     </>
   );
