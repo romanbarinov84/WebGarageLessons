@@ -1,10 +1,17 @@
-.page-div{
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.content{
     display: flex;
     flex-direction:column ;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    text-align: center;
     background-color: antiquewhite;
     font-size: 20px;
+    height: 100vh;
 }
 .page-title{
     font-size: 80px;
@@ -18,7 +25,8 @@
 }
 .Btn{
     background-color: green;
-    padding: 10px 20px;
+    padding: 20px 30px;
+    font-size: 20px;
     border-radius: 6px;
     color: wheat;
     margin: 10px;
@@ -27,4 +35,10 @@
     width: 20rem;
     height: 30rem;
     border-radius: 10px;
+}
+.TextAhead{
+    font-size: 4rem;
+    text-align: center;
+    color: cornflowerblue;
+    margin-bottom: 10px;
 }
